@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment 2</title>
+</head>
+<body>
+
+    <h1>FORMS</h1>
+    <form action="./submit.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" placeholder="Name" required >
+        <br>
+        <br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="email" name="emailaddress" required  >
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="password" required >
+        <br>
+
+
+        <!-- RADIO BUTTONS -->
+        <p>Languages</p>
+        <input type="radio" id="language" value="react" name="language" required>
+        <label for="language">React</label>
+        <br>
+        <input type="radio" id="language1" value="angular" name="language" >
+        <label for="language1">Angular</label>
+        <br>
+        <input type="radio" id="language2" value="vue" name="language" >
+        <label for="language2">Vue</label>
+        <br>
+
+        <!-- CHEKBOXES -->
+        <p>Course</p>
+        <input type="checkbox" id="course" name="course" value="MERN" required>
+        <label for="course">MERN</label>
+        <br>
+        <input type="checkbox" id="course1" name="course1" value="MEAN" >
+        <label for="course1">MEAN</label>
+        <br>
+        <input type="checkbox" id="course2" name="course2" value="VUE" >
+        <label for="course2">Vue</label>
+        <br>
+        <br>
+
+        <!-- DROPDOWN -->
+        <label for="field" >Field:</label>
+        <br>
+        <select name="field" id="field" required>
+            <option value="Front End">Front End</option>
+            <option value="Back End">Back End</option>
+            <option value="Full Stack">Full Stack</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="box" id="box" cols="34" rows="8">  </textarea>
+        <br>
+        <br>
+        <label for="phonenumber">Phone Number</label>
+        <input type="number" id="phonenumber" name="phonenumber" value="number" required>
+        <button type="submit">Submit</button>
+        <br>
+    </form>
+    <h1>TABLES</h1>
+    <a href="./tables.html">Click Here</a>
+
+    
+</body>
+</html>
